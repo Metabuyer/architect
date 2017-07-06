@@ -8,6 +8,10 @@
 
 ## Introduction
 
+FORKED REPOSITORY FROM THE ORIGINAL REPO. Updates:
+
+    Fix for null $resource in parseResource()
+
 Architect is used for dynamically creating new structures for API resource relationships.
 Sounds confusing and pretentious?
 
