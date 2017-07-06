@@ -92,7 +92,7 @@ class Architect
 
                 $object = &$resource[$property];
             } else {
-                if ($resource->{$property} === null) {
+                if (!isset($resource) || $resource->{$property} === null) {
                     continue;
                 }
 
